@@ -28,6 +28,8 @@ macOS版本：10.14.6（17G66）（dmg镜像大小5.6G左右）
 4、休眠，唤醒，关机正常。
 
 5、流畅，不卡屏、闪屏
+
+6、添加CPU睿频支持
 ```
 
 
@@ -43,12 +45,43 @@ macOS版本：10.14.6（17G66）（dmg镜像大小5.6G左右）
 ![Audio.jpg](Audio.jpg)
 
  
-
 ##### 集显硬件加速
 
 VideoProc测试硬件加速，可以检测到支持。
 
 ![VideoProc.jpg](VideoProc.jpg)
+
+
+##### USB 机箱前后USB口正常
+
+![usb.jpg](usb.jpg)
+
+##### 添加CPU睿频支持
+
+CPUS-S v4.3.1 显示处理器变频未开启。
+
+[one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+睿频开启脚本,支持大部分5代-10代U。
+
+复制脚本在桌面生成的CPUFriend.kext、CPUFriendDataProvider.kext到Clover/kexts/Other
+
+重启后效果
+
+![cpu-s.jpg](cpu-s.jpg) 
+
+
+打开浏览器CPU主频变化
+
+![IntelPowerGadget.jpg](IntelPowerGadget.jpg)
+
+
+
+
+
+
+
+
+
 
 
 
